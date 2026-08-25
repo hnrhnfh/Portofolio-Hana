@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nana's personal portfolio — data analysis, design, and creative projects." />
+  <title>Nana — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home">N<span>.</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="#contact">Let's talk ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">PORTFOLIO · 2026</p>
+        <h1>Turning data<br>into <em>meaning.</em></h1>
+        <p class="hero-text">
+          Hi, I'm <strong>Nana</strong> — an aspiring data analyst with a
+          background in English Education, curious about data, design, and
+          the stories behind numbers.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work ↓</a>
+          <a class="button ghost" href="#about">More about me</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="grid-art"></div>
+        <div class="floating-card card-a">
+          <span>DATA</span>
+          <strong>01</strong>
+        </div>
+        <div class="floating-card card-b">
+          <span>INSIGHT</span>
+          <strong>↗</strong>
+        </div>
+        <div class="scribble">curious<br>by nature.</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="skills">
+      <span>DATA ANALYSIS</span><b>✦</b><span>VISUALIZATION</span><b>✦</b>
+      <span>DESIGN</span><b>✦</b><span>STORYTELLING</span><b>✦</b>
+      <span>DATA ANALYSIS</span>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="about-content">
+        <div>
+          <p class="big-copy">I like making complex things feel <em>simple.</em></p>
+        </div>
+        <div class="about-text">
+          <p>
+            I'm currently building my skills in data analytics while bringing
+            a creative eye from my background in English Education and design.
+            I enjoy cleaning messy datasets, finding patterns, and turning
+            findings into visuals people can actually understand.
+          </p>
+          <div class="skill-list">
+            <span>Google Sheets</span><span>Looker Studio</span><span>Excel</span>
+            <span>Data Visualization</span><span>Canva</span><span>Figma</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-head">
+        <div>
+          <div class="section-label">02 / SELECTED WORK</div>
+          <h2>Things I've <em>made.</em></h2>
+        </div>
+        <p class="section-note">A growing collection of projects.<br>More coming soon.</p>
+      </div>
+
+      <div class="filter-bar">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="data">Data Analysis</button>
+        <button class="filter" data-filter="design">Design</button>
+        <button class="filter" data-filter="other">Other</button>
+      </div>
+
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="section-label">03 / EXPERIENCE</div>
+      <div class="experience-grid">
+        <div>
+          <h2>Beyond<br>the <em>screen.</em></h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <div class="year">2025 — 2026</div>
+            <div>
+              <h3>Committee & Event Experience</h3>
+              <p>Planning, coordination, communication, documentation, and creative support across campus activities.</p>
+            </div>
+          </article>
+          <article>
+            <div class="year">2026</div>
+            <div>
+              <h3>Data Analytics Learning Journey</h3>
+              <p>Hands-on practice with spreadsheets, data cleaning, exploratory analysis, dashboards, and business insights.</p>
+            </div>
+          </article>
+          <article>
+            <div class="year">Ongoing</div>
+            <div>
+              <h3>Creative & Design Projects</h3>
+              <p>Visual content, presentation design, social media assets, and personal creative experiments.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+      <h2>Let's make something<br><em>worth seeing.</em></h2>
+      <a class="contact-link" href="mailto:hello@example.com">hello@example.com ↗</a>
+      <div class="socials">
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="GitHub">GitHub</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Nana</span>
+    <span>Built with curiosity & caffeine.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

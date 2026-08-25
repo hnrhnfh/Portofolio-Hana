@@ -42,3 +42,11 @@ footer{padding:22px 5vw;display:flex;justify-content:space-between;font-size:10p
   .nav{padding:0 5vw}.nav nav{display:none}.hero{grid-template-columns:1fr;padding:80px 7vw}.hero-art{height:390px}.hero h1{font-size:64px}.section{padding:85px 7vw}.about-content,.experience-grid{grid-template-columns:1fr;gap:45px}.project-grid{grid-template-columns:1fr}.section-head{display:block}.section-note{text-align:left;margin-top:20px}.experience h2{font-size:58px}.timeline article{grid-template-columns:90px 1fr}.ticker{gap:14px}.contact{padding:110px 7vw}
 }
 @media(max-width:480px){.hero-art{height:310px}.orb-1{width:210px;height:210px}.orb-2{width:130px;height:130px}.floating-card{padding:9px 12px}.card-b{bottom:10%}.scribble{font-size:17px}.hero-actions{flex-direction:column}.button{text-align:center}footer{display:block}footer span{display:block;margin:4px 0}}
+.profile-photo {
+  width: 360px;
+  height: 460px;
+  object-fit: cover;
+  border-radius: 180px 180px 20px 20px;
+  display: block;
+  margin: auto;
+}
